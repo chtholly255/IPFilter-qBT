@@ -43,7 +43,7 @@ def fetch_ip_list(urls):
 def main():
     urls = [
         "https://raw.githubusercontent.com/PBH-BTN/BTN-Collected-Rules/main/combine/all.txt",
-        "https://bcr.pbh-btn.ghorg.ghostchu-services.top/combine/all.txt",
+        "https://bcr.pbh-btn.com/combine/all.txt",
         "https://fastly.jsdelivr.net/gh/PBH-BTN/BTN-Collected-Rules@master/combine/all.txt"
     ]
     output_filename = 'ipfilter.dat'
